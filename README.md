@@ -33,7 +33,7 @@ $npm run clean
 
 ## Autor
 
-Basado en el [repositorio original](https://github.com/joseluisgs/bulma-personal-web) propiedad de mi estimado amigo :kissing_heart: y mentor :mortar_board: , el Doctor D.[José Luis González Sánchez](https://twitter.com/joseluisgonsan)
+Basado en el [repositorio original](https://github.com/joseluisgs/bulma-personal-web) propiedad de mi estimado amigo :kissing_heart: y mentor :mortar_board: , el Doctor D. [José Luis González Sánchez](https://twitter.com/joseluisgonsan)
 
 [![Twitter](https://img.shields.io/twitter/follow/joseluisgonsan?style=social)](https://twitter.com/joseluisgonsan)
 [![GitHub](https://img.shields.io/github/followers/joseluisgs?style=social)](https://github.com/joseluisgs)

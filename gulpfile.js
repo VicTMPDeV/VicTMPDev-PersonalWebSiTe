@@ -1,7 +1,7 @@
 // Ficheros y librerías de GULP
 const gulp = require("gulp"); // Requerimos Gulp
 const browserSync = require("browser-sync").create(); // Para usar liveServer
-const sass = require("gulp-sass"); // Convertimos Sass
+const sass = require('gulp-sass')(require('sass')); // Convertimos Sass
 const minify = require("gulp-minify"); // Para hacer la versión mini de nuestras cosas
 const concat = require("gulp-concat"); // Por si queremos concatenar ficheros
 const imagemin = require("gulp-imagemin"); // Minimizar imagenes

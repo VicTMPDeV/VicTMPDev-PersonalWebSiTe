@@ -8,9 +8,9 @@ $fuente-lectura:  'Montserrat', sans-serif;
 $fuente-codigo:  'Fira Code', monospace;
 
 // MIS COLORES
-$principal: #4467da;
+$principal: #ff0000;
 $oscuro: #0D1A44;
-$semi: #2242AA;
+$semi: #ff0000;
 $progreso: #6C87E2;
 
 // Colores que voy a sustituir a los de Bulma
@@ -21,7 +21,7 @@ $twitter: #55acee;
 $twitter-invert: findColorInvert($twitter);
 $github: #333;
 $github-invert: findColorInvert($github);
-$linkedin: #0077b5;
+$linkedin: #b50000;
 $linkedin-invert: findColorInvert($linkedin);
 $progress: $progreso;
 $progress-invert: findColorInvert($linkedin);

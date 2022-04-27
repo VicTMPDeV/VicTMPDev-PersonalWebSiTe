@@ -36,7 +36,8 @@ $npm run clean
 
 ## Autor
 
-Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twitter.com/joseluisgonsan)
+Basado en el repositorio propiedad de mi estimado mentor y amigo
+[José Luis González Sánchez](https://twitter.com/joseluisgonsan)
 
 [![Twitter](https://img.shields.io/twitter/follow/joseluisgonsan?style=social)](https://twitter.com/joseluisgonsan)
 [![GitHub](https://img.shields.io/github/followers/joseluisgs?style=social)](https://github.com/joseluisgs)

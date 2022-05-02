@@ -1,4 +1,4 @@
-/* MIS SCRIPT */
+/* MIS SCRIPTS */
 
 // MENU
 const burgerIcon = document.querySelector('#navbar-menu-burguer');
@@ -10,6 +10,7 @@ burgerIcon.addEventListener('click', () => {
     burgerIcon.classList.toggle('is-active');
 });
 
+// WOWJS Efects Library -> https://wowjs.uk/docs
 
 // WOW Init
 var swiper = new Swiper(".swiper-container", {

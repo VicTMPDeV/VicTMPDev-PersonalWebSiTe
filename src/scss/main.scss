@@ -1,20 +1,20 @@
-// Importamos
+// Import
 @charset "utf-8";
 
-// MIS FUENTES
-// Fuente principal
+// Fonts
 $family-sans-serif: 'Saira', sans-serif;
 $fuente-lectura:  'Montserrat', sans-serif;
 $fuente-codigo:  'Fira Code', monospace;
 
-// MIS COLORES
-$principal: #ff0000;
-$oscuro: #0D1A44;
-$semi: #ff0000;
-$progreso: #6C87E2;
+// Colour-palette
+$main: #2A3039;
+$secondary: #555961;
+$myGray: #DBDBDB;
+$myGold: #DDC37D;
+$progress: #606988;
 
-// Colores que voy a sustituir a los de Bulma
-$info: $principal;
+// Bulma's main color update to
+$info: $main;
 
 // Nuevos colores y mapas de colores que agregaré para usar más fácil
 $twitter: #55acee;
@@ -23,8 +23,9 @@ $github: #333;
 $github-invert: findColorInvert($github);
 $linkedin: #b50000;
 $linkedin-invert: findColorInvert($linkedin);
-$progress: $progreso;
+$progress: $progress;
 $progress-invert: findColorInvert($linkedin);
+
 // Actualizmos el mapa de colores
 @import 'node_modules/bulma/sass/utilities/derived-variables';
 $addColors: (
@@ -56,12 +57,16 @@ html {
   scroll-behavior: smooth;
 }
 
-// Centramos el burguer
+// Burger center at div
 .navbar-burger {
   height: auto;
 }
 
-// Sección Hero
+.navbar-dropdown {
+  background-color: $main;
+}
+
+// Section Hero
 .hero {
   width: 100%;
   padding-top: 10vh;
@@ -74,9 +79,8 @@ html {
   top: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle farthest-corner at 12.3% 19.3%, rgb(78, 81, 230) 0%, rgb(199, 240, 255) 100%);
+  background: linear-gradient($secondary, 85%, $myGray);
   animation: Gradient 15s ease infinite;
-  opacity: 0.8;
 }
 
 // Desplazamiento de la imagen
@@ -85,8 +89,8 @@ html {
   height: 100vh;
 }
 
-.hero .persona {
-  color: $oscuro;
+.hero .my-name {
+  color: $myGray;
   font-size: 4rem;
   // Así se hace un mediaquery con bulma y sass :)
    @include until($tablet) {
@@ -94,23 +98,30 @@ html {
     }
 }
 
+.hero-logo {
+  height: 50vh;
+  width: max-content;
+}
 
 .is-lectura {
   font-family: $fuente-lectura;
 }
 
 .hero .ocupacion {
-  color: $semi;
+  color: $myGold;
   font-family: $fuente-codigo;
   @include until($tablet) {
         font-size: 2rem;
     }
 }
 
-// Sobre Mi
-
-.soy-yo {
+// Section About Me
+.about-me {
   border-radius:1rem;
+}
+
+#about-me {
+  background: linear-gradient($myGray 10%, white);
 }
 
 .progress-wrapper {
@@ -128,13 +139,12 @@ html {
   font-weight: bold;
 }
 
-
-// Proyectos
+// Projects
 #proyectos {
-   background: radial-gradient(circle farthest-corner at 12.3% 19.3%,#AFBEEF 0%,#F2F4FC 100%);
+  background-color: $myGray;
 }
 
-// Proyecto
+// Project
 .proyecto {
   transition: 0.5s all ease;
 }
@@ -142,12 +152,16 @@ html {
   box-shadow: 0 3px 50px -10px #211a74;
 }
 
+// Training
+#training {
+  background: linear-gradient(white, $myGray, $secondary);
+}
+
 
 // Footer
 .footer {
   padding: 1rem 1.5rem 1rem;
-  background-color: rgb(246, 251, 255);
-  box-shadow: -0px -2px 0px #d3d3d3;
+  background-color: $main;
 }
 
 /* Animación de vubo y otras */
@@ -247,7 +261,7 @@ html {
   top: 0;
   height: 100%;
   width: 50%;
-  background: $principal;
+  background: $main;
 }
 
 .chevron:before {

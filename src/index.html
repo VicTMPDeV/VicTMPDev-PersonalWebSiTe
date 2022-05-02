@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="sorayaleon">
+    <meta name="author" content="Víctor Morales Pérez">
 
-    <title>SORAYA LEON</title>
+    <title>VICTOR MORALES WEBSITE</title>
 
     <!-- LIBRERÍAS EXTERNAS: Animaciones -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
@@ -31,21 +29,23 @@
 </head>
 
 <body data-spy="scroll" data-target="menu">
-    <!-- INICIO -->
-
+<!-- INICIO -->
     <a id="back_to_top"></a>
 
-    <!-- NAVBAR -->
-    <nav class="navbar has-shadow is-info is-fixed-top px-3" id="menu" role="navigation" aria-label="main navigation">
-
-        <!-- logo  -->
-        <div class="navbar-brand">
-            <a class="navbar-item" href="#">
-                <img src="assets/images/logo.png" style="max-height: 50px" class="px-2">
+<!-- NAVBAR -->
+    <nav class="navbar is-info is-fixed-top px-3" 
+         id="menu" 
+         role="navigation" 
+         aria-label="main navigation">
+        <!-- LOGO  -->
+        <div class="navbar-brand py-4">
+            <a class="navbar-item" href="#home">
+                <img src="assets/images/logoVictor.png" style="max-height: 50px">
             </a>
-            <div class="is-size-4 mx-3 my-0 is-flex is-align-items-center has-text-weight-medium">Soraya León</div>
-
-            <!-- burguer -->
+            <div class="is-size-3 mx-3 my-0 is-flex is-align-items-center has-text-weight-medium">
+                Víctor Morales Pérez
+            </div>
+            <!-- BURGUER -->
             <a role="button" id="navbar-menu-burguer" class="navbar-burger" aria-label="menu" aria-expanded="false"
                 data-target="navbar-menu-items">
                 <span aria-hidden="true"></span>
@@ -53,79 +53,71 @@
                 <span aria-hidden="true"></span>
             </a>
         </div>
-
-        <!-- elementos del menú -->
+        <!-- MENU ITEMS -->
         <div id="navbar-menu-items" class="navbar-menu">
             <!-- Los colocamos al final -->
-            <div class="navbar-end mr-6">
-                <a class="navbar-item" href="#home">Inicio</a>
-                <a class="navbar-item" href="#sobre-mi">Sobre mi</a>
-                <a class="navbar-item" href="#proyectos">Proyectos</a>
-                <a class="navbar-item" href="#formacion">Formación</a>
-                <div class="navbar-item has-dropdown is-hoverable">
+            <div class="navbar-end mr-2">
+                <a class="navbar-item is-size-4 px-4 has-text-white" href="#home">Inicio</a>
+                <a class="navbar-item is-size-4 px-4 has-text-white" href="#about-me">Sobre mi</a>
+                <a class="navbar-item is-size-4 px-4 has-text-white" href="#proyectos">Proyectos</a>
+                <a class="navbar-item is-size-4 px-4 has-text-white" href="#training">Formación</a>
+                <div class="navbar-item is-size-4 px-4 has-text-white has-dropdown is-hoverable">
                     <a class="navbar-link">
                         Contacto
                     </a>
                     <div class="navbar-dropdown">
-                        <a class="navbar-item" href="https://twitter.com/sorayaleongon" target="_blank">
-                            <i class="fab fa-twitter has-text-twitter mr-2"></i> Twitter
+                        <a class="navbar-item" href="https://github.com/VicTMPDeV" target="_blank">
+                            <i class="fab fa-github has-text-white mr-2 is-size-5"></i>
+                            <span class="is-size-5 px-4 has-text-white">GitHub</span>
                         </a>
-                        <a class="navbar-item" href="https://github.com/sorayaleon" target="_blank">
-                            <i class="fab fa-github has-text-github mr-2"></i> GitHub
-                        </a>
-                        <a class="navbar-item" href="https://www.linkedin.com/in/sorayaleon/?locale=es_ES"
+                        <a class="navbar-item" href="https://www.linkedin.com/in/victormoralesperez/?locale=es_ES"
                             target="_blank">
-                            <i class="fab fa-linkedin has-text-linkedin mr-2"></i> Linkedin
+                            <i class="fab fa-linkedin has-text-white mr-2 is-size-5"></i>
+                            <span class="is-size-5 px-4 has-text-white">Linkedin</span>
                         </a>
-                        <a class="navbar-item" href="mailto:sorayaleongon@gmail.com" target="_blank">
-                            <i class="fas fa-envelope has-text-danger mr-2"></i> E-Mail
+                        <a class="navbar-item" href="mailto:victor.mp.developer@gmail.com" target="_blank">
+                            <i class="fas fa-envelope has-text-white mr-2 is-size-5"></i> 
+                            <span class="is-size-5 px-4 has-text-white">E-Mail</span>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
-
-    <!-- HERO  -->
+<!-- END NAVBAR -->
+<!-- SECTION HERO  -->
     <section class="hero" id="home">
-        <!-- Efectos de animación -->
-        <div class="cube"></div>
+        <!-- Animation Effects -->
         <div class="cube"></div>
         <div class="cube"></div>
         <div class="cube"></div>
         <div class="cube"></div>
         <div class="cube"></div>
 
-        <div class="section px-4">
+        <div class="section" style="padding-bottom: 0%; padding-top: 5vh;">
             <div class="columns is-centered is-vcentered">
-
-                <!--  Texto de presentación -->
-                <div class="column is-8">
+                <!--  Presentation Text -->
+                <div class="column is-full">
                     <div class="has-text-centered">
-                        <p
-                            class="mb-4 has-text-weight-bold has-text-white is-size-3 is-lectura animate__animated animate__fadeInUp animate__slow">
-                            ¡HOLA! 👋 </p>
-                        <h1
-                            class="mb-5 title persona has-text-weight-bold animate__animated animate__fadeInUp animate__slow">
-                            Soraya León González</h1>
-                        <p
-                            class="mb-5 subtitle is-size-2 ocupacion has-text-weight-medium animate__animated animate__fadeInUp animate__slow">
-                            &lt;Frontend developer/&gt;</p>
+                        <img loading="lazy" src="assets/images/LogoVictorTotal.png" alt="hero logo" class="hero-logo 
+                                    hero-logo animate__animated animate__fadeInUp animate__slower">
+                        <h1 class="mb-5 mt-5 title my-name has-text-weight-bold animate__animated animate__fadeInUp animate__slow">
+                            Víctor Morales Pérez
+                        </h1>
+                        <p class="mb-5 subtitle is-size-2 ocupacion has-text-weight-medium animate__animated animate__fadeInUp animate__slow">
+                            &lt;Fullstack Developer/&gt;</p>
                         <p class="mb-5 is-size-2 has-text-grey animate__animated animate__fadeInUp animate__slow">
-                            <a href="https://twitter.com/sorayaleongon" target="_blank">
-                                <i class="is-size-2 fab fa-twitter mx-2 has-text-grey-lighter"></i>
-                            </a>
-                            <a href="https://github.com/sorayaleon" target="_blank">
+                            <a href="https://github.com/VicTMPDeV" target="_blank">
                                 <i class="is-size-2 fab fa-github mx-2 has-text-grey-lighter"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/sorayaleon/?locale=es_ES" target="_blank">
+                            <a href="https://www.linkedin.com/in/victormoralesperez/?locale=es_ES" target="_blank">
                                 <i class="is-size-2 fab fa-linkedin mx-2 has-text-grey-lighter"></i>
                             </a>
-                            <a href="mailto:sorayaleongon@gmail.com" target="_blank">
+                            <a href="mailto:victor.mp.developer@gmail.com" target="_blank">
                                 <i class="is-size-2 fas fa-envelope mx-2 has-text-grey-lighter"></i>
                             </a>
                         </p>
-                        <a href="#sobre-mi">
+                        <a href="#about-me">
                             <div class="chevron-container mb-6">
                                 <div class="chevron"></div>
                                 <div class="chevron"></div>
@@ -134,18 +126,12 @@
                         </a>
                     </div>
                 </div>
-
-                <!--  Imagen Sorayita -->
-                <div class="column is-4 has-text-centered">
-                    <img loading="lazy" src="assets/images/chica.png" alt="hero mobile" class="mobile-image 
-                                    mobile-image animate__animated animate__fadeInUp animate__slower">
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- SOBRE MI -->
-    <section class="section is-large px-4" id="sobre-mi">
+    <!-- ABOUT ME -->
+    <section class="section is-large" id="about-me">
         <div class="columns is-centered">
             <!-- Imagen -->
             <div class="column is-10 has-text-centered">
@@ -168,13 +154,12 @@
                             <img loading="lazy" src="assets/images/soy_yo-5.png" alt="soy_yo-5" class="soy-yo"/>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
                 </div>
 
-                <h5 class="is-size-5 has-text-grey has-text-weight-bold mt-2 mb-4 wow animate__animated animate__headShake"
-                    data-wow-delay="1s">Soraya León González</h5>
+                <h4 class="is-size-5 has-text-grey has-text-weight-bold mt-2 mb-4 wow animate__animated animate__headShake"
+                    data-wow-delay="1s">Víctor Morales Pérez</h4>
                 <h3 class="mb-5 is-size-3 has-text-info has-text-weight-medium is-lectura wow wow animate__animated animate__headShake mb-4"
-                    data-wow-delay="1s">Mi nombre es Soraya y te doy la bienvenida a mi portfolio. En
+                    data-wow-delay="1s">👋¡Hola!, mi nombre es Víctor Morales Pérez y te doy la bienvenida a mi portfolio personal.<br/> En
                     él encontrarás algunos de los proyectos y cursos que he
                     realizado.</h3>
 
@@ -335,7 +320,7 @@
     </section>
 
     <!-- PROYECTOS-->
-    <section class="section is-large px-4" id="proyectos">
+    <section class="section is-large" id="proyectos">
         <div class="columns is-centered is-vcentered wow animate__animated animate__fadeInLeft">
             <div class="has-text-centered has-text-grey mb-5">
                 <h1 class="is-size-1 has-text-weight-bold has-text-info-dark">Proyectos</h1>
@@ -592,7 +577,7 @@
     </section>
 
     <!-- FORMACION -->
-    <section class="section is-large px-4 wow animate__animated animate__fadeInRight" id="formacion">
+    <section class="section is-large wow animate__animated animate__fadeInRight" id="training">
         <div class="columns is-centered is-vcentered">
             <div class="has-text-centered has-text-grey mb-5 mx-4">
                 <h1 class="is-size-1 has-text-weight-bold has-text-info-dark">Formación</h1>
@@ -712,21 +697,18 @@
 
     <!-- FOOTER -->
     <footer id="Footer" class="footer">
-        <div class="has-text-centered">
-            <p class="copyright">Coding with <i class="fas fa-heartbeat has-text-danger"></i> &copy;
-                <a href="https://github.com/sorayaleon" target="_blank" rel="noopener noreferrer">Soraya León</a>. 2021
+        <div class="has-text-centered has-text-white">
+            <p class="copyright has-text-white mb-3">
+                Víctor Morales Pérez</a>&copy;. 2021
             </p>
-            <a href="https://twitter.com/sorayaleongon" target="_blank">
-                <i class="fab fa-twitter has-text-twitter rrss-icon"></i>
-            </a>
             <a href="https://github.com/sorayaleon" target="_blank">
-                <i class="fab fa-github has-text-github rrss-icon"></i>
+                <i class="fab fa-github has-text-white mr-2 is-size-5"></i>
             </a>
             <a href="https://www.linkedin.com/in/sorayaleon/?locale=es_ES" target="_blank">
-                <i class="fab fa-linkedin has-text-linkedin rrss-icon"></i>
+                <i class="fab fa-linkedin has-text-white mr-2 is-size-5"></i>
             </a>
             <a href="mailto:sorayaleongon@gmail.com" target="_blank">
-                <i class="fas fa-envelope has-text-danger rrss-icon"></i>
+                <i class="fas fa-envelope has-text-white mr-2 is-size-5"></i>
             </a>
         </div>
     </footer>
@@ -740,15 +722,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
     <script>addBackToTop({
-            diameter: 56,
-            backgroundColor: '#5E7CDF',
-            textColor: '#fff'
-        })</script>
-
-
-    <!-- Mis scripts -->
+            diameter: 65,
+            backgroundColor: '#DDC37D',
+            textColor: '#2a3039',
+            cornerOffset: 12
+        });
+    </script>
     <script src="assets/scripts/scripts.js" charset="utf-8"></script>
 
 </body>
-
 </html>

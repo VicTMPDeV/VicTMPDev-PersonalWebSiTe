@@ -10,9 +10,6 @@ Ejemplo de web personal para un perfil técnico creada con mucho cariño con Bul
 ## Acerca de
 Ejemplo de web personal con el Framework CSS [Bulma](https://bulma.io/) y personalizado con Sass. Cuenta con interacción usando Vanilla JS y distintas animaciones y efectos. Para ello se ha creado una serie de tareas automatizadas con [Gulp](https://gulpjs.com/) y se ha añadido como iconos [Font Awesome](https://fontawesome.com/) y distintos librerías y efectos interactivos. 
 
-
-***Esta Página web fue diseñada para una alumna y colaboré con ella en su desarrollo aplicando el CSS Bulma. La guardo como recurso docente***. El proyecto original lo tienes [aquí](https://github.com/sorayaleon/miwebpersonal)
-
 ## Funcionamiento con npm:
 
 #### Setup y configuración de librerías
@@ -36,7 +33,7 @@ $npm run clean
 
 ## Autor
 
-Codificado con :sparkling_heart: por [José Luis González Sánchez](https://twitter.com/joseluisgonsan)
+Basado en el [repositorio original](https://github.com/joseluisgs/bulma-personal-web) propiedad de mi estimado amigo :kissing_heart: y mentor :mortar_board: , el Doctor D. [José Luis González Sánchez](https://twitter.com/joseluisgonsan)
 
 [![Twitter](https://img.shields.io/twitter/follow/joseluisgonsan?style=social)](https://twitter.com/joseluisgonsan)
 [![GitHub](https://img.shields.io/github/followers/joseluisgs?style=social)](https://github.com/joseluisgs)

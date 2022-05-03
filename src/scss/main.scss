@@ -11,7 +11,7 @@ $main: #2A3039;
 $secondary: #555961;
 $myGray: #DBDBDB;
 $myGold: #DDC37D;
-$progress: #606988;
+$progress: #465166;
 
 // Bulma's main color update to
 $info: $main;
@@ -24,7 +24,7 @@ $github-invert: findColorInvert($github);
 $linkedin: #b50000;
 $linkedin-invert: findColorInvert($linkedin);
 $progress: $progress;
-$progress-invert: findColorInvert($linkedin);
+$progress-invert: findColorInvert($progress);
 
 // Actualizmos el mapa de colores
 @import 'node_modules/bulma/sass/utilities/derived-variables';
@@ -105,6 +105,8 @@ html {
 
 .is-lectura {
   font-family: $fuente-lectura;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .hero .ocupacion {
@@ -121,7 +123,7 @@ html {
 }
 
 #about-me {
-  background: linear-gradient($myGray 10%, white);
+  background: linear-gradient($myGray 1%,10%, white);
 }
 
 .progress-wrapper {
@@ -139,6 +141,17 @@ html {
   font-weight: bold;
 }
 
+hr {
+  background-color: $main;
+  margin-top: 0.5rem;
+}
+
+.soy-yo {
+  border-radius: 50%;
+  height: 65vh;
+  width: max-content;
+}
+
 // Projects
 #proyectos {
   background-color: $myGray;
@@ -149,12 +162,12 @@ html {
   transition: 0.5s all ease;
 }
 .proyecto:hover {
-  box-shadow: 0 3px 50px -10px #211a74;
+  box-shadow: 0 3px 50px -10px $main;
 }
 
 // Training
 #training {
-  background: linear-gradient(white, $myGray, $secondary);
+  background: linear-gradient(white 50%, $myGray, $secondary);
 }
 
 
@@ -164,7 +177,7 @@ html {
   background-color: $main;
 }
 
-/* Animación de vubo y otras */
+/* CUBE ANIMATION AND OTHERS */
 .cube {
   position: absolute;
   top: 80vh;
@@ -205,7 +218,7 @@ html {
   top: 10vh;
 }
 
-/* Animate Background*/
+/* ANIMATE BACKGROUND */
 @keyframes Gradient {
   0% {
     background-position: 0% 50%;
@@ -228,7 +241,7 @@ html {
   }
 }
 
-/* cevron */
+/* CHEVRON */
 .chevron-container {
   display: flex;
   justify-content: center;

@@ -61,10 +61,8 @@
                 <a class="navbar-item is-size-4 px-4 has-text-white" href="#about-me">Sobre mi</a>
                 <a class="navbar-item is-size-4 px-4 has-text-white" href="#proyectos">Proyectos</a>
                 <a class="navbar-item is-size-4 px-4 has-text-white" href="#training">Formación</a>
-                <div class="navbar-item is-size-4 px-4 has-text-white has-dropdown is-hoverable">
-                    <a class="navbar-link">
-                        Contacto
-                    </a>
+                <div class="navbar-item is-size-4 has-text-white has-dropdown is-hoverable">
+                    <a class="navbar-link">Contacto</a>
                     <div class="navbar-dropdown">
                         <a class="navbar-item" href="https://github.com/VicTMPDeV" target="_blank">
                             <i class="fab fa-github has-text-white mr-2 is-size-5"></i>
@@ -131,12 +129,14 @@
     </section>
 
     <!-- ABOUT ME -->
-    <section class="section is-large" id="about-me">
+    <section class="section is-medium mt-0" id="about-me">
         <div class="columns is-centered">
             <!-- Imagen -->
-            <div class="column is-10 has-text-centered">
-                <!-- Swipper -->
-                <div class="swiper-container wow animate__animated animate__fadeInRight">
+            <div class="column is-12 has-text-centered">
+                <h2 class="is-size-2 title my-name has-text-info animate__animated animate__fadeInUp animate__slow"
+                    data-wow-delay="1s">👋¡Hola!, mi nombre es Víctor Morales Pérez.</h2>
+                <!-- Swipper - If want to use an image carousel -> https://swiperjs.com/demos -->
+                <!-- <div class="swiper-container wow animate__animated animate__fadeInRight">
                     <div class="swiper-wrapper has-text-centered">
                         <div class="swiper-slide">
                             <img loading="lazy" src="assets/images/soy_yo-1.png" alt="soy_yo-1" class="soy-yo"/>
@@ -154,162 +154,155 @@
                             <img loading="lazy" src="assets/images/soy_yo-5.png" alt="soy_yo-5" class="soy-yo"/>
                         </div>
                     </div>
-                </div>
-
-                <h4 class="is-size-5 has-text-grey has-text-weight-bold mt-2 mb-4 wow animate__animated animate__headShake"
-                    data-wow-delay="1s">Víctor Morales Pérez</h4>
-                <h3 class="mb-5 is-size-3 has-text-info has-text-weight-medium is-lectura wow wow animate__animated animate__headShake mb-4"
-                    data-wow-delay="1s">👋¡Hola!, mi nombre es Víctor Morales Pérez y te doy la bienvenida a mi portfolio personal.<br/> En
-                    él encontrarás algunos de los proyectos y cursos que he
-                    realizado.</h3>
+                </div> -->
+                <img loading="lazy" src="assets/images/myself.jpeg" alt="soy_yo" class="soy-yo"/>
+                <h2 class="is-size-2 mb-6 mt-5 title my-name has-text-info animate__animated animate__fadeInUp animate__slow"
+                    data-wow-delay="1s">Te doy la bienvenida a mi portfolio personal.</h2>
 
                 <!--  Texto y tecnlogías -->
-                <div class="columns is-centered m-4 has-text-left">
-                    <div class="column is-6 mx-1">
-                        <h2 class="is-size-4 has-text-info has-text-weight-medium mb-2">¿Quién soy?</h2>
-                        <p class="is-size-5 is-lectura">
-                            Soy inquieta, resolutiva, tenaz, con gran capacidad de
-                            adaptación y me gusta trabajar en equipo.
-                        </p>
-                        <p class="is-size-5 mb-2 is-lectura">
-                            Actualmente trabajo como Front-end Developer realizando
-                            proyectos en Odoo y WordPress creando la experiencia interactiva completa:
-                            desde el diseño, implementación, hasta las pruebas de la misma.
-                        </p>
-                        <p class="is-size-5 mb-2 is-lectura">
-                            En mi día a día uso y además sigo formándome en tecnologías como Angular, Vue.js, Bootstrap,
-                            Firebase, React.js Bulma, Tailwind o Sass. Considero que siempre hay algo nuevo que
-                            aprender.
-                        </p>
-                        <p class="is-size-5 mb-2 is-lectura">
-                            También tengo conocimientos de Nodejs, PHP y Laravel como tecnologías de Backend y BB.DD
-                            como MongoDB y MariaDB/MySQL.
-                        </p>
-                        <p class="is-size-5 mb-2 is-lectura">
-                            Profesionalmente me apasiona el mundo del del desarrollo Frontend, y me gustaría
-                            desarrollarme y crecer en este área.
-                        </p>
-                        <p class="is-size-5 mb-2 is-lectura">
-                            Pero no todo es desarrollar o estar con los ordenadores. Me encanta pasear con mi perro,
-                            salir de senderismo, leer, ver series/películas,
-                            jugar a videojuegos. Prático deporte y poco a poco sigo intentando que alguno de mis
-                            instrumentos musicales suenen bien.
-                        </p>
-                        <p class="is-size-5 mb-2 is-lectura">
-                            Si quieres conocer más, sigue leyendo.
-                        </p>
+                <div class="columns is-centered m-5 pt-5 has-text-left">
+                    <div class="column is-6 m-5">
+                        <h3 class="is-size-2 has-text-info has-text-info animate__animated animate__fadeInUp animate__slow">Deja que te cuente un poco sobre mí...</h3>
+                        <hr/>
+                        <div class="m-4 mt-6 wow animate__animated animate__fadeInLeft">
+                            <p class="is-size-5 mb-4 is-lectura">
+                                Me considero una persona alegre y muy sociable, con un carácter amigable y cordial. Me gusta trabajar 
+                                en equipo y generar buen ambiente con el resto de compañeros. Soy extrovertido y me desenvuelvo bien
+                                hablando en público (de ahí que compagine mi trabajo actual como desarrollador con el de docente en
+                                un centro educativo)
+                            </p>
+                            <p class="is-size-5 mb-4 is-lectura">
+                                Como desarrollador, trabajo como Full-stack Developer para un importante cliente del sector turístico nacional 
+                                realizando proyectos web con el CMS Magnolia, desarrollando módulos, funcionalidades y una API-Rest de
+                                contenidos, todo ello con el lenguaje de programación Java y respaldado con el sistema de control de 
+                                versiones Git.
+                            </p>
+                            <p class="is-size-5 mb-4 is-lectura">
+                                Además, empleo en mi día a día HTML5, CSS (con Bootstrap 4), JavaScript (ES-6) y en los últimos meses
+                                Angular 12 para desarrollar tanto la interfaz de usuario para la gestión del CMS, como los componentes 
+                                Angular para los distintos sites.
+                            </p>
+                            <p class="is-size-5 mb-4 is-lectura">
+                                También tengo conocimientos de SpringBoot y PHP, como tecnologías Backend y Sistemas Gestores de 
+                                Bases de Datos como MariaDB/MySQL, PostgreSQL, JCR (Java Content Repository).
+                            </p>
+                            <p class="is-size-5 mb-4 is-lectura">
+                                Desde que comencé a trabajar en la parte front-end del proyecto, he descubierto que mi verdadera vocación
+                                es el desarrollo Frontend y el diseño web, y desde entonces sigo formándome para adquirir buenas prácticas con VanillaJS, Angular,
+                                Mongo-DB, Bootstrap, Bulma, Tailwind o Sass. 
+                            </p>
+                            <p class="is-size-5 mb-4 is-lectura">
+                                El diseño gráfico también es una de mis pasiones. Antes de dedicarme al sector IT, mi antigua profesión
+                                era la de Arquitecto Técnico, donde mayormente me desarrollé en estudios de arquitectura diseñando proyectos
+                                y, sobre todo, realizando visualización 3D, retoque fotográfico con Adobe Photoshop y maquetación y diseño
+                                de logotipos, como los que podéis ver en mi web.
+                            </p>
+                        </div>
                     </div>
-                    <div class="column is-6">
-                        <h2 class="is-size-4 has-text-info has-text-weight-medium mb-2">Tecnologías preferidas</h2>
+                    <div class="column is-6 m-5">
+                        <h3 class="is-size-2 has-text-info animate__animated animate__fadeInUp animate__slow">
+                            Stack tecnológico favorito</h3>
+                        <hr/>
                         <!-- Tecnologías -->
-                        <div class="columns is-multiline is-vcentered is-centered is-mobile is-gapless">
-                            <!-- Angular -->
-                            <div class="column is-2 mr-1">
-                                <i class="fab fa-angular fa-2x"></i>
-                            </div>
-                            <div class="column is-9">
-                                <div class="progress-wrapper mt-4">
-                                    <progress class="progress is-progress" value="75" max="100">70%</progress>
-                                    <p class="progress-value has-text-white">75%</p>
-                                </div>
-                            </div>
-
-                            <!-- Vuejs -->
-                            <div class="column is-2 mr-1">
-                                <i class="fab fa-vuejs fa-2x"></i>
-                            </div>
-                            <div class="column is-9">
-                                <div class="progress-wrapper mt-4">
-                                    <progress class="progress is-progress" value="65" max="100">65%</progress>
-                                    <p class="progress-value has-text-white">65%</p>
-                                </div>
-                            </div>
-
+                        <div class="columns is-multiline is-vcentered is-centered is-mobile is-gapless mt-6 wow animate__animated animate__fadeInLeft">
                             <!-- JS -->
-                            <div class="column is-2 mr-1">
-                                <i class="fab fa-js-square fa-2x"></i>
+                            <div class="column is-2">
+                                <i class="fab fa-js-square fa-3x"></i>
                             </div>
                             <div class="column is-9">
                                 <div class="progress-wrapper mt-4">
-                                    <progress class="progress is-progress" value="80" max="100">80%</progress>
-                                    <p class="progress-value has-text-white">80%</p>
+                                    <progress class="progress is-progress is-large mt-5" value="55" max="100"></progress>
+                                    <p class="progress-value has-text-white mt-1">55%</p>
                                 </div>
                             </div>
-
+                            <!-- HTML -->
+                            <div class="column is-2">
+                                <i class="fab fa-html5 fa-3x"></i>
+                            </div>
+                            <div class="column is-9">
+                                <div class="progress-wrapper mt-4">
+                                    <progress class="progress is-progress is-large mt-5" value="75" max="100"></progress>
+                                    <p class="progress-value has-text-white mt-1">75%</p>
+                                </div>
+                            </div>
                             <!-- CSS -->
-                            <div class="column is-2 mr-1">
-                                <i class="fab fa-css3-alt fa-2x"></i>
+                            <div class="column is-2">
+                                <i class="fab fa-css3-alt fa-3x"></i>
                             </div>
                             <div class="column is-9">
                                 <div class="progress-wrapper mt-4">
-                                    <progress class="progress is-progress" value="85" max="100">85%</progress>
-                                    <p class="progress-value has-text-white">85%</p>
+                                    <progress class="progress is-progress is-large mt-5" value="70" max="100"></progress>
+                                    <p class="progress-value has-text-white mt-1">70%</p>
                                 </div>
                             </div>
-
-                            <!-- React -->
-                            <div class="column is-2 mr-1">
-                                <i class="fab fa-react fa-2x"></i>
+                            <!-- Angular -->
+                            <div class="column is-2">
+                                <i class="fab fa-angular fa-3x"></i>
                             </div>
                             <div class="column is-9">
                                 <div class="progress-wrapper mt-4">
-                                    <progress class="progress is-progress" value="60" max="100">60%</progress>
-                                    <p class="progress-value has-text-white">60%</p>
+                                    <progress class="progress is-progress is-large mt-5" value="55" max="100"></progress>
+                                    <p class="progress-value has-text-white mt-1">55%</p>
                                 </div>
                             </div>
-
-                            <!-- Node -->
-                            <div class="column is-2 mr-1">
-                                <i class="fab fa-node-js fa-2x"></i>
-                            </div>
-                            <div class="column is-9">
-                                <div class="progress-wrapper mt-4">
-                                    <progress class="progress is-progress" value="50" max="100">50%</progress>
-                                    <p class="progress-value has-text-white">50%</p>
-                                </div>
-                            </div>
-
-                            <!-- Wordpress -->
-                            <div class="column is-2 mr-1">
-                                <i class="fab fa-wordpress fa-2x"></i>
-                            </div>
-                            <div class="column is-9">
-                                <div class="progress-wrapper mt-4">
-                                    <progress class="progress is-progress" value="90" max="100">90%</progress>
-                                    <p class="progress-value has-text-white">90%</p>
-                                </div>
-                            </div>
-
                             <!-- Git-->
-                            <div class="column is-2 mr-1">
-                                <i class="fab fa-git-alt fa-2x"></i>
+                            <div class="column is-2">
+                                <i class="fab fa-git-alt fa-3x"></i>
                             </div>
                             <div class="column is-9">
                                 <div class="progress-wrapper mt-4">
-                                    <progress class="progress is-progress" value="85" max="100">85%</progress>
-                                    <p class="progress-value has-text-white">85%</p>
+                                    <progress class="progress is-progress is-large mt-5" value="70" max="100"></progress>
+                                    <p class="progress-value has-text-white mt-1">70%</p>
                                 </div>
                             </div>
-
-                            <!-- PHP -->
-                            <div class="column is-2 mr-1">
-                                <i class="fab fa-php fa-2x"></i>
+                            <!-- Java -->
+                            <div class="column is-2">
+                                <i class="fab fa-java fa-3x"></i>
                             </div>
                             <div class="column is-9">
                                 <div class="progress-wrapper mt-4">
-                                    <progress class="progress is-progress" value="55" max="100">55%</progress>
-                                    <p class="progress-value has-text-white">55%</p>
+                                    <progress class="progress is-progress is-large mt-5" value="70" max="100"></progress>
+                                    <p class="progress-value has-text-white mt-1">70%</p>
                                 </div>
                             </div>
-
                             <!-- PHP -->
-                            <div class="column is-2 mr-1">
-                                <i class="fab fa-laravel fa-2x"></i>
+                            <div class="column is-2">
+                                <i class="fab fa-php fa-3x"></i>
                             </div>
                             <div class="column is-9">
                                 <div class="progress-wrapper mt-4">
-                                    <progress class="progress is-progress" value="55" max="100">55%</progress>
-                                    <p class="progress-value has-text-white">55%</p>
+                                    <progress class="progress is-progress is-large mt-5" value="65" max="100"></progress>
+                                    <p class="progress-value has-text-white mt-1">65%</p>
+                                </div>
+                            </div>
+                            <!-- Node -->
+                            <div class="column is-2">
+                                <i class="fab fa-node-js fa-3x"></i>
+                            </div>
+                            <div class="column is-9">
+                                <div class="progress-wrapper mt-4">
+                                    <progress class="progress is-progress is-large mt-5" value="25" max="100"></progress>
+                                    <p class="progress-value has-text-main mt-1">25%</p>
+                                </div>
+                            </div>
+                            <!-- MariaDB/MySQL -->
+                            <div class="column is-2">
+                                <i class="fas fa-database fa-3x"></i>
+                            </div>
+                            <div class="column is-9">
+                                <div class="progress-wrapper mt-4">
+                                    <progress class="progress is-progress is-large mt-5" value="70" max="100"></progress>
+                                    <p class="progress-value has-text-white mt-1">70%</p>
+                                </div>
+                            </div>
+                            <!-- Design -->
+                            <div class="column is-2">
+                                <i class="fas fa-palette fa-3x"></i>
+                            </div>
+                            <div class="column is-9">
+                                <div class="progress-wrapper mt-4">
+                                    <progress class="progress is-progress is-large mt-5" value="75" max="100"></progress>
+                                    <p class="progress-value has-text-white mt-1">75%</p>
                                 </div>
                             </div>
                         </div>
@@ -320,17 +313,12 @@
     </section>
 
     <!-- PROYECTOS-->
-    <section class="section is-large" id="proyectos">
+    <section class="section is-medium" id="proyectos">
         <div class="columns is-centered is-vcentered wow animate__animated animate__fadeInLeft">
-            <div class="has-text-centered has-text-grey mb-5">
-                <h1 class="is-size-1 has-text-weight-bold has-text-info-dark">Proyectos</h1>
-                <h3 class="is-size-4 has-text-weight-medium has-text-grey-dark is-lectura">Estos son algunos de mis proyectos personales. Sigo avanzando día a día.</h3>
-                <h4 class="is-size-4 has-text-weight-medium has-text-grey-dark is-lectura"><span class="icon-text">
-                    <span class="icon">
-                        <i class="fab fa-github"></i>
-                    </span>
-                    <span><a href="hhttps://github.com/sorayaleon/calculadora" target="_blank">Ver más.</a></span>
-                </span></h4>
+            <div class="has-text-centered has-text-grey mb-6">
+                <h3 class="is-size-2 title my-name has-text-weight-bold has-text-info">Proyectos</h3>
+                <hr/>
+                <h4 class="is-size-3 has-text-weight-medium has-text-info is-lectura mb-6">Estos son algunos de mis proyectos personales.</h4>
             </div>
         </div>
 
@@ -577,11 +565,12 @@
     </section>
 
     <!-- FORMACION -->
-    <section class="section is-large wow animate__animated animate__fadeInRight" id="training">
-        <div class="columns is-centered is-vcentered">
-            <div class="has-text-centered has-text-grey mb-5 mx-4">
-                <h1 class="is-size-1 has-text-weight-bold has-text-info-dark">Formación</h1>
-                <h3 class="is-size-4 has-text-weight-medium has-text-grey-dark is-lectura">Todos los días intento aprender algo nuevo. Siempre me sigo formando.</h3>
+    <section class="section is-medium" id="training">
+        <div class="columns is-centered is-vcentered wow animate__animated animate__fadeInLeft">
+            <div class="has-text-centered has-text-grey mb-6">
+                <h3 class="is-size-2 has-text-weight-bold has-text-info">Formación</h3>
+                <hr/>
+                <h3 class="is-size-3 has-text-weight-medium has-text-grey-dark is-lectura mb-6">Algunas de las formaciones recibidas y que actualmente estoy cursando</h3>
             </div>
         </div>
         <div class="columns is-centered m-4">
@@ -718,7 +707,7 @@
     <!-- SCRIPTS: Si no concatenas debes poner todos aquí los que usas -->
 
     <!-- Animaciones y efectos -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
     <script>addBackToTop({

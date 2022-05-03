@@ -105,6 +105,11 @@ html {
 
 .is-lectura {
   font-family: $fuente-lectura;
+  text-justify: inter-word;
+}
+
+.is-lectura-compact {
+  font-family: $fuente-lectura;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -120,6 +125,7 @@ html {
 // Section About Me
 .about-me {
   border-radius:1rem;
+  padding: 0%;
 }
 
 #about-me {
@@ -148,7 +154,7 @@ hr {
 
 .soy-yo {
   border-radius: 50%;
-  height: 65vh;
+  height: 50vh;
   width: max-content;
 }
 
@@ -162,7 +168,7 @@ hr {
   transition: 0.5s all ease;
 }
 .proyecto:hover {
-  box-shadow: 0 3px 50px -10px $main;
+  box-shadow: 0 5px 50px -10px $main;
 }
 
 // Training

@@ -6,6 +6,7 @@ Ejemplo de web personal para un perfil técnico creada con mucho cariño con Bul
 [![Saas](https://img.shields.io/badge/Sass-%20Ready-ff69b4)](https://sass-lang.com/)
 [![Gulp](https://img.shields.io/badge/Gulp-%20Ready-cf4647)](https://gulpjs.com/)
 
+Desplegado en: https://victormoralesperez.netlify.app/
 
 ## Acerca de
 Ejemplo de web personal con el Framework CSS [Bulma](https://bulma.io/) y personalizado con Sass. Cuenta con interacción usando Vanilla JS y distintas animaciones y efectos. Para ello se ha creado una serie de tareas automatizadas con [Gulp](https://gulpjs.com/) y se ha añadido como iconos [Font Awesome](https://fontawesome.com/) y distintos librerías y efectos interactivos. 
